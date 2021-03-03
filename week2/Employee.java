@@ -40,15 +40,20 @@ public class Employee {
 		System.out.println("Enter name: ");
 		name = sc.next(); //waits for the user to enter input 
 		
-		System.out.printf("Hello, %s, preparing profile..,%nbalance:%.2f", name, moneyBalance);
-		
+		System.out.printf("Preparing profile for %s ...%nbalance:%.2f%n", name, moneyBalance);
+		System.out.printf("Salary %f %n", salary);
 		
 		// Modify this  Employee class so that the program displays
 		// all the user's information in a well formatted way 
 		//and asks the user for the amount to pay to this employee
 		//then adds this amount to the the paid and the moneyBalance
 		//Display the updated information at the end
+		System.out.println("Enter the amount to pay");
+		paid  = sc.nextDouble();
 		
+		moneyBalance = moneyBalance + paid;
+		
+		System.out.printf("New update for %s ..,%nbalance:%.2f", name, moneyBalance);
 		
 		
 		
