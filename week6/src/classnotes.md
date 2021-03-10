@@ -39,8 +39,15 @@ return expression ;
 identifier (arguments) ;
 
 ```
- 
+ int result  = sumOfTwo(7, 8);
+ System.out.println(result);
+
 ```
-
-
 ### Semantics
+
+* hold a space in memory 
+* give that space the name of the method call
+* search for the method definition with the same signature as the method call
+* if it finds the corresponding method, the argument values will be assigned to the parameter variables of the method
+* it will execute the statements
+* After everything has been executed the method call will end and the space in memory will be released
