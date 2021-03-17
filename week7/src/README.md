@@ -14,10 +14,10 @@ nums => {5, 2, 3, 4, 8, 7};
 
 nums[0] => 5
 
------Length------
+## Length------
 nums.length
 
------- Creating Arrays---------
+## Creating Arrays
 datatype []  identifier =  new datatype [size];
 datatype []  identifier2 = {element, element, element};
 datatype []  identifier2 = new datatype [] {element, element, element};
