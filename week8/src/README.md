@@ -30,6 +30,7 @@ You can have many objects created based on one blueprint/ Class
 #### Attributes: warm blood, milk, teeth, fur/hair
 #### Behaviours: They eat, they grow, Speak
 
+```
 UML 
 -----------------------
 |        Human         |
@@ -42,3 +43,8 @@ UML
 | +getAge(): int       |
 |+setAge(age: int):void|
 ------------------------
+```
+## Exercise
+- Modify the Human class:
+-- Create a setter and getter for the name instance variable
+-- Create a constructor that takes in age and name
