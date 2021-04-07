@@ -21,7 +21,9 @@ UML
 |   +toString():String
 |_____________________________
 ```
-#Exercise
+
+## Exercise
+
 * Test all the methods in Bank class
 * Create an array of Banks and and  
 * Create a method that prints out all the account's owners in the bank array, params: Bank arrays
