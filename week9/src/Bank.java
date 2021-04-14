@@ -13,7 +13,9 @@ public class Bank {
 	public double getBalance() {
 		return balance;
 	}
-	
+	public String getName() {
+		return name;
+	}
 	public void withdraw (double amount) {
 		if(balance-amount < 0) {
 			System.out.println("The amount exceeds the balance");
