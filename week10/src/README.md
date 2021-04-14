@@ -36,7 +36,7 @@ public boolean equals(Object obj){
 | +Constructor 
 | +setters and getters
 | +toString() : String
-| +equals()
+| +equals() : boolean
 |------------------------
 ```
 # Exercise for week10 
