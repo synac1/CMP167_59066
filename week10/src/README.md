@@ -23,7 +23,7 @@ public boolean equals(Object obj){
 }
 ```
 #UML
-________________________
+```________________________
 |       Book            |
 ------------------------
 | -title: String
@@ -38,7 +38,7 @@ ________________________
 | +toString() : String
 | +equals()
 |------------------------
-
+```
 # Exercise for week10 
 - Create a Movie class
 - That has at least 4 instance variables
