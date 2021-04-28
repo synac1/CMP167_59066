@@ -51,3 +51,12 @@ What process would you follow to sort this array in ascending order
 {0, 1, 2, 3, 6, 8}
 
 Time complexity : O(n^2)
+
+# Week 12 exercise is to  write an essay explaining the sorting algorithms below
+
+## Selection Sort  O(n^2)
+## Insertion Sort O(n^2)
+
+
+## MergeSort O(nlogn)
+## QuickSort O(nlogn)
